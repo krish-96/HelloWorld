@@ -12,17 +12,62 @@
 
 <h6>This is the index page</h6>
 <h5>This is the index page</h5>
-<h4>This is the index page</h4>
-<h3>This is the index page</h3>
-<h2>This is the index page</h2>
-<h1>This is the index page</h1>
+
+<hr>
+<table border="1">
+    <thead>
+    <th>Web page Name</th>
+    <th>url</th>
+    <th>link</th>
+    </thead>
+    <tr>
+        <td>Home</td>
+        <td>https://127.0.0.1:8000/home</td>
+        <td> <a href="/index/">Click here</a> </td>
+    </tr>
+    <tr>
+        <td>Index</td>
+        <td>https://127.0.0.1:8000/index</td>
+        <td> <a href="/index/">Click here</a> </td>
+    </tr>
+        <tr>
+        <td>Others</td>
+        <td>https://127.0.0.1:8000/others</td>
+        <td> <a href="/others/">Click here</a> </td>
+    </tr>
+</table>
+
+<hr>
+
+<table border="2">
+    <thead>
+    <th>Name</th>
+    <th>age</th>
+    <th>Sddress</th>
+    </thead>
+    <tr>
+        <td>Gopi</td>
+        <td>26</td>
+        <td>Nellore</td>
+    </tr>
+    <tr>
+        <td>Harshitha</td>
+        <td>21</td>
+        <td>Vaddipalem</td>
+    </tr>
+</table>
+
+<hr>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyDN-MudJPSedBOTxMj6q9ni7G1-o49uk8Xg&usqp=CAU">
+
 
 
 
 <div>Other Pages
     <a href="{% url 'index' %}">Index</a>
-    <a href="{% url 'home' %}">Home</a>
     <a href="{% url 'others' %}">Others</a>
 </div>
+
+
 </body>
 </html>
